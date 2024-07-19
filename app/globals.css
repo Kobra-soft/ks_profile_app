@@ -12,7 +12,9 @@ body {
   font-family: 'Gilroy-ExtraBold', sans-serif;
   height: 100%;
   margin: 0;
-  background: linear-gradient(to bottom right, #3B0747, #0B13DA);
+  padding: 0;
+  width: 100%;
+  background: linear-gradient(to bottom right, #3B0747, #040bf0);
 }
 
 h1 {
@@ -20,9 +22,10 @@ h1 {
 
 }
 
-/* @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.next-logo-white {
+  filter: brightness(0) invert(1);
 }
- */
+
+.next-logo-black {
+  filter: brightness(0) invert(0);
+}
