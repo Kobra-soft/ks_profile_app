@@ -19,8 +19,26 @@ body {
 
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
-
 }
+
+h2 {
+  font-family: 'Gilroy-ExtraBold', sans-serif;
+  font-weight: 100;
+  color: white;
+  width: 80%;
+  padding-bottom: 1.5rem;
+  animation: colorChange 3s backwards infinite;
+}
+
+h3 {
+  font-family: 'Gilroy-ExtraBold', sans-serif;
+  font-weight: 100;
+  color: white;
+  width: 80%;
+  padding-bottom: 1.5rem;
+  animation: colorChange2 3s backwards infinite;
+}
+
 
 .next-logo-white {
   filter: brightness(0) invert(1);
@@ -28,4 +46,14 @@ h1 {
 
 .next-logo-black {
   filter: brightness(0) invert(0);
+}
+
+@keyframes colorChange {
+  from { color: #ffffff; }
+  to { color: #ff006f; }
+}
+
+@keyframes colorChange2 {
+  from { color: #000000; }
+  to { color: #ffffff; }
 }

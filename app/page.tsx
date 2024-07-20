@@ -5,12 +5,38 @@ export default function Home() {
   return (
       <main className="flex flex-col min-h-screen p-0">
         <div className="w-full">
-          <h1 className="fixed text-8xl text-white lg:px-14 lg:pt-10 cursor-pointer">
+          <h1 className="text-9xl text-white lg:px-14 lg:pt-8 cursor-pointer">
             Kobra-Soft
           </h1>
+          <h2 className=" lg:px-14 lg:pt-16 text-5xl">
+            Full stack web & mobile application development, specialising in the building of bespoke applications. 
+          </h2>
+
+          <h2 className=" lg:px-14 lg:pt-5 text-5xl">
+            Not only do we build applications, we also provide consultancy services to help you get the most out of your applications.
+          </h2>
+
+          <h2 className=" lg:px-14 lg:pt-5 text-5xl">
+           We provide the best possible service to our clients, building long lasting relationships with them.
+          </h2>
+
+          <h2 className=" lg:px-14 lg:pt-5 text-5xl">
+           Our philosophy is to build robust and scalable applications that are easy to maintain and update. We do this by 
+           developing applications using the latest technologies and best practices.
+          </h2>
+
+          <h2 className=" lg:px-14 lg:pt-5 text-5xl">
+          We strongly believe in the importance of agile development phases.
+          </h2>
+
+          <h3 className=" text-black lg:px-14 lg:pt-5 text-5xl">
+          Plan • Design • Develop • Test • Deploy • Maintain
+          </h3>
+
+
 
           <Image src="/logo-nodejs.svg" alt="Next.js Logo" width={300} height={250} 
-          className="next-logo-black mt-[750px] mx-auto cursor-pointer pr-9 mb-8"/>
+          className="next-logo-black mt-32 mb-32 mx-auto pr-9"/>
 
         </div>
 
