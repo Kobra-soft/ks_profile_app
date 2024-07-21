@@ -57,6 +57,20 @@ body {
   /* background-color: #0E0F0F; */
 }
 
+
+
+/* CSS */
+.app_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make sure the app container takes up the full viewport height */
+}
+
+.main_container_div {
+}
+
+
+
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
   color: white;
@@ -72,7 +86,7 @@ h2 {
   color: white;
   width: 75%;
   line-height: 1.2;
-  padding-bottom: 50px;
+  padding-bottom: 2.9rem;
   /* margin-left: 4px; */
   animation: colorChange 8s forwards infinite;
 }
@@ -84,8 +98,6 @@ h3 {
   font-size: 66px;
   color: white;
   width: auto;
-  line-height: 1.2;
-  padding-bottom: 20px;
   /* margin-left: 4px; */
   /* animation: colorChange2 8s alternate infinite; */
 }
@@ -123,5 +135,3 @@ footer {
     color: #000000;
   }
 }
-
-/* ARROW ANIMATION */

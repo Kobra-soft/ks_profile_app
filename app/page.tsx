@@ -47,8 +47,61 @@ export default function Home() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  /* const [currentSection, setCurrentSection] = useState(0);
+  const sections = ['section1', 'section2', 'section3']; // IDs of your sections
+
+  const scrollToSection = (sectionIndex: number) => {
+    const section = document.getElementById(sections[sectionIndex]);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'PageDown' && currentSection < sections.length - 1) {
+      setCurrentSection((prevSection) => {
+        const nextSection = prevSection + 1;
+        scrollToSection(nextSection);
+        return nextSection;
+      });
+    } else if (event.key === 'PageUp' && currentSection > 0) {
+      setCurrentSection((prevSection) => {
+        const prevSectionIndex = prevSection - 1;
+        scrollToSection(prevSectionIndex);
+        return prevSectionIndex;
+      });
+    }
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'PageDown' && currentSection < sections.length - 1) {
+        setCurrentSection((prevSection) => {
+          const nextSection = prevSection + 1;
+          scrollToSection(nextSection);
+          return nextSection;
+        });
+      } else if (event.key === 'PageUp' && currentSection > 0) {
+        setCurrentSection((prevSection) => {
+          const prevSectionIndex = prevSection - 1;
+          scrollToSection(prevSectionIndex);
+          return prevSectionIndex;
+        });
+      }
+    };
+  
+    window.addEventListener('keydown', handleKeyDown);
+  
+    // Optional: Implement scroll event listener here
+  
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      // Optional: Clean up scroll event listener here
+    };
+  }, [currentSection]);
+ */
   return (
-    <main className="flex flex-col min-h-screen">
+    <main className="flex flex-col">
       <header className="w-full fixed py-5 px-8 header-footer-background-colour">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl cursor-pointer">Kobra-Soft</h1>
@@ -85,36 +138,73 @@ export default function Home() {
           </button>
         </div>
       </header>
-      <h2 className=" lg:px-14 lg:pt-16">
-        Full stack web & mobile application development, specialising in the
-        building of bespoke applications.
-      </h2>
 
-      <h2 className=" lg:px-14">
-        Not only do we build applications, we also provide consultancy services
-        to help you get the most out of your applications.
-      </h2>
+      {/* // Container for the main content */}
+      <div id="section1"
+      className="main_container_div px-8 pt-36 bg-[#3d11ff] h-screen w-full">
+        <h2 className="">
+          Full stack web & mobile application development, specialising in the
+          building of bespoke applications.
+        </h2>
 
-      <h2 className=" lg:px-14">
-        We provide the best possible service to our clients, building long
-        lasting relationships with them.
-      </h2>
+        <h2 className="">
+          Not only do we build applications, we also provide consultancy
+          services to help you get the most out of your applications.
+        </h2>
 
-      <h2 className=" lg:px-14">
-        Our philosophy is to build robust and scalable applications that are
-        easy to maintain and update. We do this by developing applications using
-        the latest technologies and best practices.
-      </h2>
+        <h2 className="">
+          We provide the best possible service to our clients, building long
+          lasting relationships with them.
+        </h2>
 
-      <h2 className=" lg:px-14">
-        We strongly believe in the importance of agile development phases.
-      </h2>
+        <h2 className="">
+          Our philosophy is to build robust and scalable applications that are
+          easy to maintain and update. We do this by developing applications
+          using the latest technologies and best practices.
+        </h2>
 
-      <h3 className="lg:px-14 mb-0 pt-16 flex flex-wrap items-center gap-4">
-        <ArrowDisplayComponent />
-      </h3>
+        <h2 className="">
+          We strongly believe in the importance of agile development phases.
+        </h2>
 
-      <div className="flex justify-center bg-black/15 border-t border-black w-full">
+        <h3 className=" mb-0 pt-0 flex flex-wrap items-center gap-4">
+          <ArrowDisplayComponent />
+        </h3>
+      </div>
+
+      {/* Second Container for additional content */}
+      <div id="section2"
+      className="second_container_div px-8 pt-36 bg-[#2a0fa2] h-screen w-full">
+        <h2>Additional content 2 or sections can go here.</h2>
+        <h2>
+          Describe more services, showcase projects, or include testimonials.
+        </h2>
+        <h2>Each section can have its unique content and styling as needed.</h2>
+        <h2>
+          This setup allows for creating a full-page scrolling experience.
+        </h2>
+        <h2>
+          Consider navigation options for users to easily jump between sections.
+        </h2>
+      </div>
+
+        {/* Third Container for additional content */}
+        <div  id="section3"
+        className="third_container_div px-8 pt-36 bg-[#1d0a70] h-screen w-full">
+        <h2>Additional content 3 or sections can go here.</h2>
+        <h2>
+          Describe more services, showcase projects, or include testimonials.
+        </h2>
+        <h2>Each section can have its unique content and styling as needed.</h2>
+        <h2>
+          This setup allows for creating a full-page scrolling experience.
+        </h2>
+        <h2>
+          Consider navigation options for users to easily jump between sections.
+        </h2>
+      </div>
+
+      {/*       <div className="flex justify-center border-t border-[#272727] w-full h-full">
         <Image
           src="/logo-javascript.svg"
           alt="JavaScript Logo"
@@ -123,8 +213,8 @@ export default function Home() {
           className="next-logo-black my-32 mx-auto"
         />
         <Image
-          src="/logo-react.svg"
-          alt="React Logo"
+          src="/logo-npm.svg"
+          alt="NPM Logo"
           width={180}
           height={250}
           className="next-logo-black my-32 mx-auto"
@@ -146,8 +236,8 @@ export default function Home() {
           className="next-logo-black my-32 mx-auto"
         />
         <Image
-          src="/logo-npm.svg"
-          alt="NPM Logo"
+          src="/logo-react.svg"
+          alt="React Logo"
           width={180}
           height={250}
           className="next-logo-black my-32 mx-auto"
@@ -160,7 +250,9 @@ export default function Home() {
           className="next-logo-black my-32 mx-auto"
         />
       </div>
-
+      <div className="flex justify-center bg-black/15 border-black w-full">
+      <h4>|</h4>
+      </div> */}
     </main>
   );
 }
