@@ -4,48 +4,47 @@
 
 
 @font-face {
-  font-family: 'Gilroy-ExtraBold'; 
+  font-family: 'Gilroy-ExtraBold';
   src: url('fonts/Gilroy-ExtraBold.ttf');
 }
 
 @font-face {
-  font-family: 'Gilroy-Bold'; 
+  font-family: 'Gilroy-Bold';
   src: url('fonts/Gilroy-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Gilroy-Heavy'; 
+  font-family: 'Gilroy-Heavy';
   src: url('fonts/Gilroy-Heavy.ttf');
 }
 
 @font-face {
-  font-family: 'Gilroy-Medium'; 
+  font-family: 'Gilroy-Medium';
   src: url('fonts/Gilroy-Medium.ttf');
 }
 
 @font-face {
-  font-family: 'Gilroy-Regular'; 
+  font-family: 'Gilroy-Regular';
   src: url('fonts/Gilroy-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Gilroy-Light'; 
+  font-family: 'Gilroy-Light';
   src: url('fonts/Gilroy-Light.ttf');
 }
 
 @font-face {
-  font-family: 'PPMori-SemiBold'; 
+  font-family: 'PPMori-SemiBold';
   src: url('fonts/PPMori-SemiBold.otf');
 }
 
 @font-face {
-  font-family: 'PPMori-Regular'; 
+  font-family: 'PPMori-Regular';
   src: url('fonts/PPMori-Regular.otf');
 }
 
-@font-face {
-  font-family: 'PPMori-Extralight'; 
-  src: url('fonts/PPMori-Extralight.otf');
+.header-footer-background-colour {
+  background-color: #070707;
 }
 
 body {
@@ -55,10 +54,12 @@ body {
   padding: 0;
   width: 100%;
   background: linear-gradient(to bottom right, #3B0747, #040bf0);
+  /* background-color: #0E0F0F; */
 }
 
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
+  color: white;
 }
 
 h2 {
@@ -66,12 +67,13 @@ h2 {
   font-weight: 100; */
   font-family: 'PPMori-SemiBold', sans-serif;
   font-weight: 900;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 40px;
   color: white;
   width: 75%;
   line-height: 1.2;
   padding-bottom: 50px;
-  margin-left: 4px;
+  /* margin-left: 4px; */
   animation: colorChange 8s forwards infinite;
 }
 
@@ -84,15 +86,12 @@ h3 {
   width: auto;
   line-height: 1.2;
   padding-bottom: 20px;
-  margin-left: 4px;
+  /* margin-left: 4px; */
   /* animation: colorChange2 8s alternate infinite; */
 }
 
 footer {
-  /* font-family: 'Gilroy-Medium', sans-serif; */
-  font-family: 'Gilroy-Regular', sans-serif;
-  /* font-family: 'PPMori-Regular', sans-serif; */
-  /* font-family: 'PPMori-SemiBold', sans-serif; */
+  font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .next-logo-white {
@@ -106,13 +105,23 @@ footer {
 }
 
 @keyframes colorChange {
-  from { color: #000000; }
-  to { color: #ffffff; }
+  from {
+    color: #000000;
+  }
+
+  to {
+    color: #ffffff;
+  }
 }
 
 @keyframes colorChange2 {
-  from { color: #ffffff; }
-  to { color: #000000; }
+  from {
+    color: #ffffff;
+  }
+
+  to {
+    color: #000000;
+  }
 }
 
 /* ARROW ANIMATION */
