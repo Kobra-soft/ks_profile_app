@@ -54,7 +54,6 @@ body {
   padding: 0;
   width: 100%;
   background: linear-gradient(to bottom right, #3B0747, #040bf0);
-  /* background-color: #0E0F0F; */
 }
 
 
@@ -63,7 +62,7 @@ body {
 .app_container {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Make sure the app container takes up the full viewport height */
+  height: 100vh;
 }
 
 .main_container_div {
@@ -77,29 +76,22 @@ h1 {
 }
 
 h2 {
-  /* font-family: 'Gilroy-ExtraBold', sans-serif;
-  font-weight: 100; */
   font-family: 'PPMori-SemiBold', sans-serif;
   font-weight: 900;
-  /* font-size: 50px; */
   font-size: 40px;
   color: white;
   width: 75%;
   line-height: 1.2;
   padding-bottom: 2.9rem;
-  /* margin-left: 4px; */
   animation: colorChange 8s forwards infinite;
 }
 
 h3 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
-  /* font-family: 'PPMori-SemiBold', sans-serif; */
   font-weight: 900;
   font-size: 66px;
   color: white;
   width: auto;
-  /* margin-left: 4px; */
-  /* animation: colorChange2 8s alternate infinite; */
 }
 
 footer {

@@ -47,59 +47,6 @@ export default function Home() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  /* const [currentSection, setCurrentSection] = useState(0);
-  const sections = ['section1', 'section2', 'section3']; // IDs of your sections
-
-  const scrollToSection = (sectionIndex: number) => {
-    const section = document.getElementById(sections[sectionIndex]);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  const handleKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === 'PageDown' && currentSection < sections.length - 1) {
-      setCurrentSection((prevSection) => {
-        const nextSection = prevSection + 1;
-        scrollToSection(nextSection);
-        return nextSection;
-      });
-    } else if (event.key === 'PageUp' && currentSection > 0) {
-      setCurrentSection((prevSection) => {
-        const prevSectionIndex = prevSection - 1;
-        scrollToSection(prevSectionIndex);
-        return prevSectionIndex;
-      });
-    }
-  };
-
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'PageDown' && currentSection < sections.length - 1) {
-        setCurrentSection((prevSection) => {
-          const nextSection = prevSection + 1;
-          scrollToSection(nextSection);
-          return nextSection;
-        });
-      } else if (event.key === 'PageUp' && currentSection > 0) {
-        setCurrentSection((prevSection) => {
-          const prevSectionIndex = prevSection - 1;
-          scrollToSection(prevSectionIndex);
-          return prevSectionIndex;
-        });
-      }
-    };
-  
-    window.addEventListener('keydown', handleKeyDown);
-  
-    // Optional: Implement scroll event listener here
-  
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-      // Optional: Clean up scroll event listener here
-    };
-  }, [currentSection]);
- */
   return (
     <main className="flex flex-col">
       <header className="w-full fixed py-5 px-8 header-footer-background-colour">
