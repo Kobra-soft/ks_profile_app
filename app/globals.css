@@ -96,6 +96,13 @@ h3 {
 
 footer {
   font-family: 'Gilroy-Medium', sans-serif;
+  font-size: large;
+}
+
+.footer_2nd_font{
+  /* font-family: 'Gilroy-Light', sans-serif; */
+  font-family: 'PPMori-Regular', sans-serif;
+  font-size: 0.98rem;
 }
 
 .next-logo-white {
