@@ -2,42 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url('fonts/Gilroy-ExtraBold.ttf');
 }
-
 @font-face {
   font-family: 'Gilroy-Bold';
   src: url('fonts/Gilroy-Bold.ttf');
 }
-
 @font-face {
   font-family: 'Gilroy-Heavy';
   src: url('fonts/Gilroy-Heavy.ttf');
 }
-
 @font-face {
   font-family: 'Gilroy-Medium';
   src: url('fonts/Gilroy-Medium.ttf');
 }
-
 @font-face {
   font-family: 'Gilroy-Regular';
   src: url('fonts/Gilroy-Regular.ttf');
 }
-
 @font-face {
   font-family: 'Gilroy-Light';
   src: url('fonts/Gilroy-Light.ttf');
 }
-
 @font-face {
   font-family: 'PPMori-SemiBold';
   src: url('fonts/PPMori-SemiBold.otf');
 }
-
 @font-face {
   font-family: 'PPMori-Regular';
   src: url('fonts/PPMori-Regular.otf');
@@ -56,19 +48,11 @@ body {
   background: linear-gradient(to bottom right, #3B0747, #040bf0);
 }
 
-
-
-/* CSS */
 .app_container {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-
-.main_container_div {
-}
-
-
 
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
@@ -96,41 +80,20 @@ h3 {
 
 footer {
   font-family: 'Gilroy-Medium', sans-serif;
-  font-size: large;
 }
 
 .footer_2nd_font{
   /* font-family: 'Gilroy-Light', sans-serif; */
   font-family: 'PPMori-Regular', sans-serif;
-  font-size: 0.98rem;
+  font-size: 0.97rem;
 }
 
-.next-logo-white {
-  filter: brightness(0) invert(1);
-  cursor: pointer;
+.hover\:filter-grey-to-white:hover path {
+  fill: #ffffff;
 }
 
-.next-logo-black {
-  filter: brightness(0) invert(0);
-  cursor: pointer;
-}
-
-@keyframes colorChange {
-  from {
-    color: #000000;
-  }
-
-  to {
-    color: #ffffff;
-  }
-}
-
-@keyframes colorChange2 {
-  from {
-    color: #ffffff;
-  }
-
-  to {
-    color: #000000;
-  }
+.hover-underline:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }

@@ -1,8 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
+
+import NpmLogo from "./components/icons/NpmLogo";
+import TypescriptLogo from "./components/icons/TypescriptLogo";
+import NodejsLogo from "./components/icons/NodejsLogo";
+import ReactLogo from "./components/icons/ReactLogo";
+import NextLogo from "./components/icons/NextLogo";
+import VercelLogo from "./components/icons/VercelLogo";
 
 const items = ["Plan", "Design", "Develop", "Test", "Deploy", "Maintain"];
 
@@ -118,7 +124,7 @@ export default function Home() {
           We strongly believe in the importance of agile development phases.
         </h2>
 
-        <h3 className=" mb-0 pt-0 flex flex-wrap items-center gap-4">
+        <h3 className="mb-0 pt-0 flex flex-wrap items-center gap-4">
           <ArrowDisplayComponent />
         </h3>
       </div>
@@ -213,93 +219,50 @@ export default function Home() {
         <h4>|</h4>
       </div> */}
 
-      <footer className="footer mt-auto text-white/85 px-20 py-24 w-full header-footer-background-colour">
+      <footer className="footer mt-auto text-white/75 px-20 py-10 w-full header-footer-background-colour">
         <div className="flex justify-between items-center h-full">
           {/* LEFTSIDE */}
           <div className="flex flex-col justify-center items-center">
-            <div className="cursor-default">
+            <div className="cursor-default mb-0">
               © 2024{" "}
               <a
                 href="https://github.com/Kobra-soft"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mx-1 cursor-pointer hover:text-white ">
+                <span className="mx-0.5 cursor-pointer hover:text-white">
                   Kobra-Soft <span className="text-2xl">™</span>
                 </span>
               </a>
             </div>
-            <h4 className="footer_2nd_font text-[#636364] text-center cursor-default">
+            <h4 className="footer_2nd_font text-[#636364] text-center cursor-default -mt-1">
               All rights reserved
             </h4>
           </div>
           {/* SVG - Icons Row */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
-            <div className="flex gap-7">
-              <Image
-                src="/logo-npm.svg"
-                alt="Npm Logo"
-                title="Node Package Manager"
-                width={50}
-                height={50}
-                className="next-logo-white hover:scale-110"
-              />
-              <Image
-                src="/typescript-svgrepo-com.svg"
-                alt="Typescript Logo"
-                title="TypeScript"
-                width={60}
-                height={60}
-                className="next-logo-white hover:scale-110"
-              />
-              <Image
-                src="/logo-nodejs2.svg"
-                alt="NodeJS Logo"
-                title="NodeJS"
-                width={50}
-                height={50}
-                className="next-logo-white hover:scale-110"
-              />
-
-              <Image
-                src="/logo-react.svg"
-                alt="React Logo"
-                title="React"
-                width={50}
-                height={50}
-                className="next-logo-white hover:scale-110"
-              />
-              <Image
-                src="/next.svg"
-                alt="Next.js Logo"
-                title="Next.js"
-                width={60}
-                height={60}
-                className="next-logo-white hover:scale-110"
-              />
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                title="Vercel"
-                width={60}
-                height={60}
-                className="next-logo-white hover:scale-110"
-              />
+            <div className="flex gap-10 items-center">
+              <NpmLogo />
+              <TypescriptLogo />
+              <NodejsLogo />
+              <ReactLogo />
+              <NextLogo />
+              <VercelLogo />
             </div>
           </div>
           {/* RIGHTSIDE */}
-          <div className="flex flex-row gap-6 items-center text-white/85">
-            <a href="#" className=" hover:text-white">
-              FAQ
+          <div className="flex flex-row gap-6 items-center text-white/75">
+            <a href="#" className=" hover:text-white hover-underline">
+              About
             </a>
-            <a href="#" className=" hover:text-white">
+            <a href="#" className=" hover:text-white hover-underline">
               Cookies
             </a>
-            <a href="#" className=" hover:text-white">
+            <a href="#" className=" hover:text-white hover-underline">
               Privacy
             </a>
-            <a href="#" className=" hover:text-white">
-              T & C
+            <a href="#" className=" hover:text-white hover-underline">
+              Contact Us
             </a>
           </div>
         </div>
