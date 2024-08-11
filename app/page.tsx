@@ -55,7 +55,10 @@ export default function Home() {
 
   return (
     <main className="flex flex-col">
-      <header className="header bg-white z-50 w-full fixed top-0  py-5 px-8 header-footer-background-colour">
+      <header
+        className="header z-50 w-full fixed top-0 
+      py-5 px-8 header-footer-background-colour"
+      >
         <div className="flex justify-between items-center">
           <h1 className="text-3xl cursor-pointer">Kobra-Soft</h1>
           <button onClick={toggleMenu} className="cursor-pointer">
@@ -97,42 +100,23 @@ export default function Home() {
       {/* // Container for the main content */}
       <div
         id="section1"
-        className="main_container_div px-8 pt-36 bg-[#3d11ff] h-screen w-full"
+        className="main_container_div px-12 pt-80 
+      bg-black h-screen w-full pl-[12.5rem]"
       >
-        <h2 className="">
-          Full stack web & mobile application development, specialising in the
-          building of bespoke applications.
-        </h2>
+        {/* <h2 className="text-[120px]">KOBRA SOFT</h2> */}
+        <h2 className="text-[120px] mb-2.5">SOLUTIONS</h2>
 
-        <h2 className="">
-          Not only do we build applications, we also provide consultancy
-          services to help you get the most out of your applications.
-        </h2>
-
-        <h2 className="">
-          We provide the best possible service to our clients, building long
-          lasting relationships with them.
-        </h2>
-
-        <h2 className="">
-          Our philosophy is to build robust and scalable applications that are
-          easy to maintain and update. We do this by developing applications
-          using the latest technologies and best practices.
-        </h2>
-
-        <h2 className="">
-          We strongly believe in the importance of agile development phases.
-        </h2>
-
-        <h3 className="mb-0 pt-0 flex flex-wrap items-center gap-4">
-          <ArrowDisplayComponent />
+        <h3 className="text-3xl">
+          We empower brands with innovative digital solutions, crafting
+          user-centric experiences that enhance brand prescence and drive
+          business growth.
         </h3>
       </div>
 
       {/* Second Container for additional content */}
       <div
         id="section2"
-        className="second_container_div px-8 pt-36 bg-[#2a0fa2] h-screen w-full"
+        className="second_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
         <h2>Additional content 2 or sections can go here.</h2>
         <h2>
@@ -150,7 +134,7 @@ export default function Home() {
       {/* Third Container for additional content */}
       <div
         id="section3"
-        className="third_container_div px-8 pt-36 bg-[#1d0a70] h-screen w-full"
+        className="third_container_div px-12 pt-36 bg-[#000000] h-screen w-full text-4xl"
       >
         <h2>Additional content 3 or sections can go here.</h2>
         <h2>
@@ -165,8 +149,8 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center w-full">
-        <div className="flex justify-center border-t border-[#272727] w-full">
+      <div className="flex flex-col items-center w-full bg-[#ffffff]">
+        <div className="flex justify-center border-t  border-[#272727] w-full ">
           <Image
             src="/logo-javascript.svg"
             alt="JavaScript Logo"
@@ -223,19 +207,19 @@ export default function Home() {
         <div className="flex justify-between items-center h-full">
           {/* LEFTSIDE */}
           <div className="flex flex-col justify-center items-center">
-            <div className="cursor-default mb-0">
+            <div className="cursor-default mb-0 text-md">
               © 2024{" "}
               <a
                 href="https://github.com/Kobra-soft"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mx-0.5 cursor-pointer hover:text-white">
+                <span className="mx-0.5 cursor-pointer hover:text-white text-[#ffffff]/75">
                   Kobra-Soft <span className="text-2xl">™</span>
                 </span>
               </a>
             </div>
-            <h4 className="footer_2nd_font text-[#636364] text-center cursor-default -mt-1">
+            <h4 className="footer_2nd_font text-[#636364] self-start ml-1.5 cursor-default -mt-1 text-md">
               All rights reserved
             </h4>
           </div>

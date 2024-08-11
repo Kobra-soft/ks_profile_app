@@ -6,33 +6,79 @@
   font-family: 'Gilroy-ExtraBold';
   src: url('fonts/Gilroy-ExtraBold.ttf');
 }
+
 @font-face {
   font-family: 'Gilroy-Bold';
   src: url('fonts/Gilroy-Bold.ttf');
 }
+
 @font-face {
   font-family: 'Gilroy-Heavy';
   src: url('fonts/Gilroy-Heavy.ttf');
 }
+
 @font-face {
   font-family: 'Gilroy-Medium';
   src: url('fonts/Gilroy-Medium.ttf');
 }
+
 @font-face {
   font-family: 'Gilroy-Regular';
   src: url('fonts/Gilroy-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Gilroy-Light';
   src: url('fonts/Gilroy-Light.ttf');
 }
+
 @font-face {
   font-family: 'PPMori-SemiBold';
   src: url('fonts/PPMori-SemiBold.otf');
 }
+
 @font-face {
   font-family: 'PPMori-Regular';
   src: url('fonts/PPMori-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Oswald-ExtraLight';
+  src: url('fonts/Oswald-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-Light';
+  src: url('fonts/Oswald-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url('fonts/Oswald-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-SemiBold';
+  src: url('fonts/Oswald-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-Bold';
+  src: url('fonts/Oswald-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf');
 }
 
 .header-footer-background-colour {
@@ -45,7 +91,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: linear-gradient(to bottom right, #3B0747, #040bf0);
+  /* background: linear-gradient(to bottom right, #3B0747, #040bf0); */
 }
 
 .app_container {
@@ -54,38 +100,39 @@ body {
   height: 100vh;
 }
 
+/* // HEADER FONT */
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
   color: white;
 }
 
+/* // TITLE FONT */
 h2 {
-  font-family: 'PPMori-SemiBold', sans-serif;
-  font-weight: 900;
-  font-size: 40px;
+  /* font-family: 'PPMori-SemiBold', sans-serif; */
+  font-family: 'Oswald-Bold', sans-serif;
+  /* font-weight: 900; */
   color: white;
-  width: 75%;
+  /* width: 75%; */
   line-height: 1.2;
-  padding-bottom: 2.9rem;
+  /* padding-bottom: 2.9rem; */
   animation: colorChange 8s forwards infinite;
 }
 
+/* // PARAGRAPH FONT */
 h3 {
-  font-family: 'Gilroy-ExtraBold', sans-serif;
-  font-weight: 900;
-  font-size: 66px;
+  font-family: 'Montserrat-VariableFont_wght', sans-serif;
+  /* font-weight: 900; */
   color: white;
-  width: auto;
+  width: 43%;
 }
 
 footer {
   font-family: 'Gilroy-Medium', sans-serif;
 }
 
-.footer_2nd_font{
+.footer_2nd_font {
   /* font-family: 'Gilroy-Light', sans-serif; */
   font-family: 'PPMori-Regular', sans-serif;
-  font-size: 0.97rem;
 }
 
 .hover\:filter-grey-to-white:hover path {
@@ -94,6 +141,42 @@ footer {
 
 .hover-underline:hover {
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
   text-decoration-thickness: 2px;
+}
+
+@keyframes colorChange {
+  from {
+    color: #000000;
+  }
+
+  to {
+    color: #ffffff;
+  }
+
+  from {
+    color: #000000;
+  }
+
+  to {
+    color: #ffffff;
+  }
+}
+
+@keyframes colorChange2 {
+  from {
+    color: #ffffff;
+  }
+
+  to {
+    color: #000000;
+  }
+
+  from {
+    color: #ffffff;
+  }
+
+  to {
+    color: #000000;
+  }
 }
