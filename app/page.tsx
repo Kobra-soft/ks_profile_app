@@ -155,7 +155,7 @@ export default function Home() {
         </h3>
       </div>
 
-      {/* <div className="flex flex-col items-center w-full bg-[#ffffff]">
+      <div className="flex flex-col items-center w-full bg-[#ffffff]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
           <Image
             src="/logo-javascript.svg"
@@ -202,16 +202,16 @@ export default function Home() {
             className="next-logo-black my-32 mx-auto"
           />
         </div>
-      </div> */}
+      </div>
 
       {/* // TESTING MIDDLE SCREEN POSITIONER | REMOVE LATER */}
       {/* <div className="flex justify-center bg-black/15 border-black w-full">
         <h4>|</h4>
       </div> */}
 
-      {/* <footer className="footer mt-auto text-white/75 px-20 py-10 w-full header-footer-background-colour">
+      <footer className="footer mt-auto text-white/75 px-20 py-10 w-full header-footer-background-colour">
         <div className="flex justify-between items-center h-full">
-
+          {/* LEFTSIDE */}
           <div className="flex flex-col justify-center items-center">
             <div className="cursor-default mb-0 text-md">
               © 2024{" "}
@@ -229,7 +229,7 @@ export default function Home() {
               All rights reserved
             </h5>
           </div>
-
+          {/* SVG - Icons Row */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <div className="flex gap-10 items-center">
               <NpmLogo />
@@ -240,7 +240,7 @@ export default function Home() {
               <VercelLogo />
             </div>
           </div>
-
+          {/* RIGHTSIDE */}
           <div className="flex flex-row gap-6 items-center text-white/75">
             <a href="#" className=" hover:text-[#ff0479] hover-underline">
               About
@@ -256,7 +256,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </main>
   );
 }
