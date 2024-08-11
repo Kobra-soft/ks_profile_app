@@ -155,7 +155,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center w-full bg-[#ffffff]">
+      {/* <div className="flex flex-col items-center w-full bg-[#ffffff]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
           <Image
             src="/logo-javascript.svg"
@@ -202,7 +202,7 @@ export default function Home() {
             className="next-logo-black my-32 mx-auto"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* // TESTING MIDDLE SCREEN POSITIONER | REMOVE LATER */}
       {/* <div className="flex justify-center bg-black/15 border-black w-full">
