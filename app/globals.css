@@ -123,6 +123,26 @@ h3 {
   font-family: 'Montserrat-VariableFont_wght', sans-serif;
   /* font-weight: 900; */
   color: white;
+  /* width: 45%; */
+  line-height: normal;
+}
+
+span {
+  font-family: 'Montserrat-VariableFont_wght', sans-serif;
+  font-weight: 600;
+  /* color: rgb(4, 255, 100); */
+ /*  color: rgb(4, 255, 192); */
+  /* color: rgb(255, 4, 247); */
+  /* color: rgb(117, 255, 4); */
+  /* color: rgb(255, 4, 17); */
+  color: rgb(255, 4, 121);
+ /*  color: rgb(255, 142, 4); */
+}
+
+h4 {
+  font-family: 'Montserrat-VariableFont_wght', sans-serif;
+  /* font-weight: 900; */
+  color: black;
   width: 43%;
 }
 
@@ -136,7 +156,9 @@ footer {
 }
 
 .hover\:filter-grey-to-white:hover path {
-  fill: #ffffff;
+  /* fill: #ffffff; */
+  fill: #ff0479;
+
 }
 
 .hover-underline:hover {

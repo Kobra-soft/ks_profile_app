@@ -100,16 +100,22 @@ export default function Home() {
       {/* // Container for the main content */}
       <div
         id="section1"
-        className="main_container_div px-12 pt-80 
-      bg-black h-screen w-full pl-[12.5rem]"
+        className="main_container_div pt-80 
+      bg-black h-screen w-full px-8 lg:pl-[12.5rem]"
       >
-        {/* <h2 className="text-[120px]">KOBRA SOFT</h2> */}
-        <h2 className="text-[120px] mb-2.5">SOLUTIONS</h2>
+        <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
+          SOLUTIONS
+        </h2>
 
-        <h3 className="text-3xl">
-          We empower brands with innovative digital solutions, crafting
-          user-centric experiences that enhance brand prescence and drive
-          business growth.
+        <h3
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#cbced3]
+        md:w-[60%]  xl:w-[45%]"
+        >
+          We empower brands with{" "}
+          <span className="">innovative digital solutions</span>, crafting
+          <span className=""> user-centric experiences </span>
+          that enhance <span className="">brand prescence </span>and drive
+          <span className=""> business growth.</span>
         </h3>
       </div>
 
@@ -118,17 +124,17 @@ export default function Home() {
         id="section2"
         className="second_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
-        <h2>Additional content 2 or sections can go here.</h2>
-        <h2>
+        <h4>Additional content 2 or sections can go here.</h4>
+        <h4>
           Describe more services, showcase projects, or include testimonials.
-        </h2>
-        <h2>Each section can have its unique content and styling as needed.</h2>
-        <h2>
+        </h4>
+        <h4>Each section can have its unique content and styling as needed.</h4>
+        <h4>
           This setup allows for creating a full-page scrolling experience.
-        </h2>
-        <h2>
+        </h4>
+        <h4>
           Consider navigation options for users to easily jump between sections.
-        </h2>
+        </h4>
       </div>
 
       {/* Third Container for additional content */}
@@ -136,17 +142,17 @@ export default function Home() {
         id="section3"
         className="third_container_div px-12 pt-36 bg-[#000000] h-screen w-full text-4xl"
       >
-        <h2>Additional content 3 or sections can go here.</h2>
-        <h2>
+        <h3>Additional content 3 or sections can go here.</h3>
+        <h3>
           Describe more services, showcase projects, or include testimonials.
-        </h2>
-        <h2>Each section can have its unique content and styling as needed.</h2>
-        <h2>
+        </h3>
+        <h3>Each section can have its unique content and styling as needed.</h3>
+        <h3>
           This setup allows for creating a full-page scrolling experience.
-        </h2>
-        <h2>
+        </h3>
+        <h3>
           Consider navigation options for users to easily jump between sections.
-        </h2>
+        </h3>
       </div>
 
       <div className="flex flex-col items-center w-full bg-[#ffffff]">
@@ -214,14 +220,14 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mx-0.5 cursor-pointer hover:text-white text-[#ffffff]/75">
-                  Kobra-Soft <span className="text-2xl">™</span>
+                <span className="mx-0.5 cursor-pointer hover:text-[#ff0479] text-[#ffffff]/75">
+                  Kobra-Soft ™
                 </span>
               </a>
             </div>
-            <h4 className="footer_2nd_font text-[#636364] self-start ml-1.5 cursor-default -mt-1 text-md">
+            <h5 className="footer_2nd_font text-[#636364] self-start ml-3.5 cursor-default -mt-1 text-md">
               All rights reserved
-            </h4>
+            </h5>
           </div>
           {/* SVG - Icons Row */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
@@ -236,16 +242,16 @@ export default function Home() {
           </div>
           {/* RIGHTSIDE */}
           <div className="flex flex-row gap-6 items-center text-white/75">
-            <a href="#" className=" hover:text-white hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline">
               About
             </a>
-            <a href="#" className=" hover:text-white hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline">
               Cookies
             </a>
-            <a href="#" className=" hover:text-white hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline">
               Privacy
             </a>
-            <a href="#" className=" hover:text-white hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline">
               Contact Us
             </a>
           </div>
