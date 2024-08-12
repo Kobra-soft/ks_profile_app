@@ -103,22 +103,23 @@ export default function Home() {
       {/* // Container for the main content */}
       <div
         id="section1"
-        className="main_container_div pt-80 
-      bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem]"
+        className="main_container_div pt-64 
+      bg-[#f7f7f7] h-screen w-full px-8 lg:pl-[12.5rem]"
       >
-        <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
-          SOLUTIONS
+      <h2 className="h2a w-52 text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
+          BOOST YOUR BRAND
         </h2>
 
         <h3
-          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#ffffff]
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-light text-[#000000]
         md:w-[60%]  xl:w-[45%]"
         >
-          We empower brands with{" "}
-          <span className="">innovative digital solutions</span>, crafting
-          <span className=""> user-centric experiences </span>
-          that enhance <span className="">brand prescence </span>and drive
-          <span className=""> business growth.</span>
+          We create
+          <span className=""> digital experience</span> at the intersection
+          between
+          <span className=""> design </span>
+          and<span className=""> technology</span>, helping our clients to
+          <span className=""> imagine the future</span>, today.
         </h3>
       </div>
 
@@ -150,11 +151,11 @@ export default function Home() {
         </h2>
 
         <h3
-          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#ffffff]
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-light text-[#ffffff]
         md:w-[60%]  xl:w-[45%]"
         >
-          We empower brands with{" "}
-          <span className="">innovative digital solutions</span>, crafting
+          We empower brands with
+          <span className=""> innovative digital solutions</span>, crafting
           <span className=""> user-centric experiences </span>
           that enhance <span className="">brand prescence </span>and drive
           <span className=""> business growth.</span>
@@ -308,11 +309,11 @@ export default function Home() {
         py-0 w-full 
         header-footer-background-colour 
         block md:block xl:hidden
-        border-t border-[#333333]"
+       "
       >
-        <div className="flex flex-col justify-center items-center h-full pt-6">
+        <div className="flex flex-col justify-center items-center h-full pt-10">
           <div className="flex gap-8 items-center text-white/75">
-            <a href="#" className="hover:text-[#ff0479] hover-underline">
+            <a href="" className="hover:text-[#ff0479] hover-underline">
               About
             </a>
             <a href="#" className="hover:text-[#ff0479] hover-underline">
@@ -327,7 +328,8 @@ export default function Home() {
           </div>
 
           {/* Divider */}
-          <div className="w-11/12 border-b border-[#333333] pt-6 mb-6"></div>
+          {/* <div className="w-11/12 border-b border-[#222222] pt-4 mb-6"></div> */}
+          <div className=" border-b border-[#222222] pt-4 mb-6"></div>
 
           <div className="flex gap-8 items-center pt-0">
             <NpmLogo />
@@ -340,7 +342,7 @@ export default function Home() {
             <VercelLogo />
           </div>
 
-          <div className="w-11/12 border-b border-[#333333] pt-4 mb-4"></div>
+          <div className="w-9/12 border-b border-[#222222] pt-4 mb-4"></div>
 
           <div className="flex justify-center items-center">
             <div className="flex items-center cursor-default mb-4">
@@ -356,7 +358,7 @@ export default function Home() {
                   Kobra-Soft ™
                 </span>
               </a>
-              <span className=" text-[#7b7b7d] pl-1 cursor-default text-sm">
+              <span className="font-thin  text-[#7b7b7d] pl-1 cursor-default text-sm">
                 All rights reserved
               </span>
             </div>

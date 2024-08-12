@@ -116,6 +116,13 @@ h2 {
   animation: colorChange 8s forwards infinite;
 }
 
+.h2a {
+  font-family: 'Oswald-Bold', sans-serif;
+  color: white;
+  line-height: 1.2;
+  animation: colorChange2 8s forwards infinite;
+}
+
 /* // PARAGRAPH FONT */
 h3 {
   font-family: 'Montserrat-VariableFont_wght', sans-serif;
@@ -181,7 +188,7 @@ footer {
 
 @keyframes colorChange2 {
   from {
-    color: #ffffff;
+    color: #cacaca;
   }
 
   to {
@@ -189,7 +196,7 @@ footer {
   }
 
   from {
-    color: #ffffff;
+    color: #cacaca;
   }
 
   to {
