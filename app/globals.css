@@ -108,22 +108,16 @@ h1 {
 
 /* // TITLE FONT */
 h2 {
-  /* font-family: 'PPMori-SemiBold', sans-serif; */
   font-family: 'Oswald-Bold', sans-serif;
-  /* font-weight: 900; */
   color: white;
-  /* width: 75%; */
   line-height: 1.2;
-  /* padding-bottom: 2.9rem; */
   animation: colorChange 8s forwards infinite;
 }
 
 /* // PARAGRAPH FONT */
 h3 {
   font-family: 'Montserrat-VariableFont_wght', sans-serif;
-  /* font-weight: 900; */
   color: white;
-  /* width: 45%; */
   line-height: normal;
 }
 
@@ -141,24 +135,22 @@ span {
 
 h4 {
   font-family: 'Montserrat-VariableFont_wght', sans-serif;
-  /* font-weight: 900; */
+  font-weight: 600;
   color: black;
   width: 43%;
 }
 
 footer {
   font-family: 'Gilroy-Medium', sans-serif;
+
 }
 
 .footer_2nd_font {
-  /* font-family: 'Gilroy-Light', sans-serif; */
   font-family: 'PPMori-Regular', sans-serif;
 }
 
 .hover\:filter-grey-to-white:hover path {
-  /* fill: #ffffff; */
   fill: #ff0479;
-
 }
 
 .hover-underline:hover {
