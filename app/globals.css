@@ -103,6 +103,7 @@ body {
 /* // HEADER FONT */
 h1 {
   font-family: 'Gilroy-ExtraBold', sans-serif;
+  /* font-family: 'Oswald-Bold', sans-serif; */
   color: white;
 }
 

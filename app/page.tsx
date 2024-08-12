@@ -60,8 +60,11 @@ export default function Home() {
       py-5 px-8 header-footer-background-colour"
       >
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl cursor-pointer">Kobra-Soft</h1>
-          <button onClick={toggleMenu} className="cursor-pointer">
+          <h1 className="text-3xl cursor-pointer hover:text-[#ff0479]">
+            Kobra-Soft
+          </h1>
+          {/* <h1 className="text-2xl cursor-pointer tracking-wide hover:text-[#ff0479]">KOBRA-SOFT</h1> */}
+          <button onClick={toggleMenu} className="cursor-pointer group">
             <div className="w-7 h-7 flex items-center justify-center">
               {isMenuOpen ? (
                 <svg
@@ -70,7 +73,7 @@ export default function Home() {
                   height="20"
                   fill="white"
                   viewBox="0 0 16 16"
-                  className="transition-transform duration-300"
+                  className="transition-transform duration-300 group-hover:fill-[#ff0479]"
                 >
                   <path
                     fillRule="evenodd"
@@ -84,7 +87,7 @@ export default function Home() {
                   height="28"
                   fill="white"
                   viewBox="0 0 16 16"
-                  className="transition-transform duration-300"
+                  className="transition-transform duration-300 group-hover:fill-[#ff0479]"
                 >
                   <path
                     fillRule="evenodd"
@@ -101,14 +104,14 @@ export default function Home() {
       <div
         id="section1"
         className="main_container_div pt-80 
-      bg-black h-screen w-full px-8 lg:pl-[12.5rem]"
+      bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem]"
       >
         <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
           SOLUTIONS
         </h2>
 
         <h3
-          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#cbced3]
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#ffffff]
         md:w-[60%]  xl:w-[45%]"
         >
           We empower brands with{" "}
@@ -120,7 +123,7 @@ export default function Home() {
       </div>
 
       {/* Second Container for additional content */}
-      <div
+{/*       <div
         id="section2"
         className="second_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
@@ -135,10 +138,31 @@ export default function Home() {
         <h4>
           Consider navigation options for users to easily jump between sections.
         </h4>
+      </div> */}
+
+<div
+        id="section2"
+        className="main_container_div pt-80 
+      bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem] pb-16" // Add padding-bottom to avoid overlap with footer
+      >
+        <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
+          SOLUTIONS
+        </h2>
+
+        <h3
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#ffffff]
+        md:w-[60%]  xl:w-[45%]"
+        >
+          We empower brands with{" "}
+          <span className="">innovative digital solutions</span>, crafting
+          <span className=""> user-centric experiences </span>
+          that enhance <span className="">brand prescence </span>and drive
+          <span className=""> business growth.</span>
+        </h3>
       </div>
 
       {/* Third Container for additional content */}
-      <div
+{/*       <div
         id="section3"
         className="third_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
@@ -153,29 +177,7 @@ export default function Home() {
         <h4>
           Consider navigation options for users to easily jump between sections.
         </h4>
-      </div>
-
-            {/* // Container for the main content */}
-            <div
-        id="section1"
-        className="main_container_div pt-80 
-      bg-black h-screen w-full px-8 lg:pl-[12.5rem]"
-      >
-        <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
-          SOLUTIONS
-        </h2>
-
-        <h3
-          className="text-[20px] md:text-[20px] lg:text-[33px] font-extralight text-[#cbced3]
-        md:w-[60%]  xl:w-[45%]"
-        >
-          We empower brands with{" "}
-          <span className="">innovative digital solutions</span>, crafting
-          <span className=""> user-centric experiences </span>
-          that enhance <span className="">brand prescence </span>and drive
-          <span className=""> business growth.</span>
-        </h3>
-      </div>
+      </div> */}
 
       {/* <div className="flex flex-col items-center w-full bg-[#ff0059]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
@@ -332,22 +334,23 @@ export default function Home() {
             <NextLogo />
             <VercelLogo />
           </div>
-          <div className="flex items-center justify-center cursor-default text-md text-center mb-4">
-            <span className="text-[#ffffff]/75">© 2024{" "}</span>
-            
-            <a
-              href="https://github.com/Kobra-soft"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="mx-0.5 pl-1 cursor-pointer hover:text-[#ff0479] text-[#ffffff]/75">
-                Kobra-Soft ™
-              </span>
-            </a>
-            <span className=" text-[#7b7b7d] cursor-default text-md mx-1">
+          <div className="flex flex-col justify-center items-center">
+            <div className="cursor-default mb-0 text-lg">
+              © 2024{" "}
+              <a
+                href="https://github.com/Kobra-soft"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mx-0.5 cursor-pointer hover:text-[#ff0479] text-[#ffffff]/75">
+                  Kobra-Soft ™
+                </span>
+              </a>
+            </div>
+            <h5 className="footer_2nd_font text-[#7b7b7d] self-start ml-5 cursor-default -mt-1 text-md">
               All rights reserved
-            </span>
-          </div>
+            </h5>
+            </div>
         </div>
       </footer>
     </main>
