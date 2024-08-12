@@ -155,7 +155,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center w-full bg-[#00ffbf]">
+      <div className="flex flex-col items-center w-full bg-[#ff0059]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
           <Image
             src="/logo-javascript.svg"
@@ -220,7 +220,7 @@ export default function Home() {
         <div className="flex justify-between items-center h-full">
           {/* LEFTSIDE */}
           <div className="flex flex-col justify-center items-center">
-            <div className="cursor-default mb-0 text-md">
+            <div className="cursor-default mb-0 text-lg">
               © 2024{" "}
               <a
                 href="https://github.com/Kobra-soft"
@@ -232,13 +232,13 @@ export default function Home() {
                 </span>
               </a>
             </div>
-            <h5 className="footer_2nd_font text-[#636364] self-start ml-3.5 cursor-default -mt-1 text-md">
+            <h5 className="footer_2nd_font text-[#7b7b7d] self-start ml-5 cursor-default -mt-1 text-md">
               All rights reserved
             </h5>
           </div>
           {/* SVG - Icons Row */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
-            <div className="flex gap-10 items-center">
+            <div className="flex gap-8 items-center">
               <NpmLogo />
               <TypescriptLogo />
               <NodejsLogo />
@@ -248,17 +248,17 @@ export default function Home() {
             </div>
           </div>
           {/* RIGHTSIDE */}
-          <div className="flex flex-row gap-6 items-center text-white/75">
-            <a href="#" className=" hover:text-[#ff0479] hover-underline">
+          <div className="flex flex-row gap-7 items-center text-white/75 text-lg">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline hover:scale-105">
               About
             </a>
-            <a href="#" className=" hover:text-[#ff0479] hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline hover:scale-105">
               Cookies
             </a>
-            <a href="#" className=" hover:text-[#ff0479] hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline hover:scale-105">
               Privacy
             </a>
-            <a href="#" className=" hover:text-[#ff0479] hover-underline">
+            <a href="#" className=" hover:text-[#ff0479] hover-underline hover:scale-105">
               Contact Us
             </a>
           </div>
