@@ -123,7 +123,7 @@ export default function Home() {
       </div>
 
       {/* Second Container for additional content */}
-{/*       <div
+      {/*       <div
         id="section2"
         className="second_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
@@ -140,7 +140,7 @@ export default function Home() {
         </h4>
       </div> */}
 
-<div
+      <div
         id="section2"
         className="main_container_div pt-80 
       bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem] pb-16" // Add padding-bottom to avoid overlap with footer
@@ -162,7 +162,7 @@ export default function Home() {
       </div>
 
       {/* Third Container for additional content */}
-{/*       <div
+      {/*       <div
         id="section3"
         className="third_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
       >
@@ -307,9 +307,10 @@ export default function Home() {
         px-4 md:px-8 
         py-0 w-full 
         header-footer-background-colour 
-        block md:block xl:hidden"
+        block md:block xl:hidden
+        border-t border-[#333333]"
       >
-        <div className="flex flex-col justify-center items-center h-full pt-8">
+        <div className="flex flex-col justify-center items-center h-full pt-6">
           <div className="flex gap-8 items-center text-white/75">
             <a href="#" className="hover:text-[#ff0479] hover-underline">
               About
@@ -324,33 +325,42 @@ export default function Home() {
               Contact Us
             </a>
           </div>
-          <div className="flex gap-4 items-center pt-11">
+
+          {/* Divider */}
+          <div className="w-11/12 border-b border-[#333333] pt-6 mb-6"></div>
+
+          <div className="flex gap-8 items-center pt-0">
             <NpmLogo />
             <TypescriptLogo />
             <NodejsLogo />
             <ReactLogo />
           </div>
-          <div className="flex gap-4 items-center mb-8">
+          <div className="flex gap-8 items-center mb-0">
             <NextLogo />
             <VercelLogo />
           </div>
-          <div className="flex flex-col justify-center items-center">
-            <div className="cursor-default mb-0 text-lg">
-              © 2024{" "}
+
+          <div className="w-11/12 border-b border-[#333333] pt-4 mb-4"></div>
+
+          <div className="flex justify-center items-center">
+            <div className="flex items-center cursor-default mb-4">
+              <span className="font-light cursor-pointer text-sm text-[#ffffff]/75">
+                © 2024{" "}
+              </span>
               <a
                 href="https://github.com/Kobra-soft"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mx-0.5 cursor-pointer hover:text-[#ff0479] text-[#ffffff]/75">
+                <span className="pl-2 cursor-pointer text-sm hover:text-[#ff0479] text-[#ffffff]/75">
                   Kobra-Soft ™
                 </span>
               </a>
+              <span className=" text-[#7b7b7d] pl-1 cursor-default text-sm">
+                All rights reserved
+              </span>
             </div>
-            <h5 className="footer_2nd_font text-[#7b7b7d] self-start ml-5 cursor-default -mt-1 text-md">
-              All rights reserved
-            </h5>
-            </div>
+          </div>
         </div>
       </footer>
     </main>

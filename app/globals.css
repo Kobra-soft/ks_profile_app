@@ -76,6 +76,7 @@
   font-family: 'Montserrat-VariableFont_wght';
   src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
+
 @font-face {
   font-family: 'Montserrat-Italic-VariableFont_wght';
   src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf');
@@ -126,12 +127,12 @@ span {
   font-family: 'Montserrat-VariableFont_wght', sans-serif;
   font-weight: 600;
   /* color: rgb(4, 255, 100); */
- /*  color: rgb(4, 255, 192); */
+  /*  color: rgb(4, 255, 192); */
   /* color: rgb(255, 4, 247); */
   /* color: rgb(117, 255, 4); */
   /* color: rgb(255, 4, 17); */
   color: rgb(255, 4, 121);
- /*  color: rgb(255, 142, 4); */
+  /*  color: rgb(255, 142, 4); */
 }
 
 h4 {
