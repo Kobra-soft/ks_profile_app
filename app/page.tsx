@@ -155,7 +155,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center w-full bg-[#ffffff]">
+      <div className="flex flex-col items-center w-full bg-[#00ffbf]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
           <Image
             src="/logo-javascript.svg"
@@ -209,7 +209,14 @@ export default function Home() {
         <h4>|</h4>
       </div> */}
 
-      <footer className="footer mt-auto text-white/75 px-20 py-10 w-full header-footer-background-colour">
+
+      
+      {/* // FOOTER FOR DESKTOP SITE! Hide for mobile */}
+      <footer className="footer mt-auto text-white/75 
+      xl:px-8 
+      py-10 w-full 
+      header-footer-background-colour 
+      hidden md:hidden xl:block">
         <div className="flex justify-between items-center h-full">
           {/* LEFTSIDE */}
           <div className="flex flex-col justify-center items-center">
@@ -257,6 +264,8 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+
     </main>
   );
 }

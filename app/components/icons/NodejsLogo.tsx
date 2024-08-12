@@ -8,7 +8,7 @@ const NodejsLogo = () => (
     height={50}
    className="next-logo-white hover:scale-125 transition-transform duration-100 hover:filter-grey-to-white"
   >
-    <path fill="#A8A8AA"
+    <path fill="gray"
     display="inline" fill-rule="evenodd" clip-rule="evenodd" d="M115.889,151.885l-24.053-13.773
 		c-1.512-0.891-2.451-2.499-2.451-4.244v-29.306c0-1.745-0.928-3.364-2.443-4.232l-10.239-5.899
 		c-0.742-0.444-1.601-0.662-2.432-0.662c-0.854,0-1.689,0.218-2.451,0.662l-10.246,5.899c-1.516,0.869-2.44,2.488-2.44,4.232v29.306
