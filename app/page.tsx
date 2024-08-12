@@ -312,16 +312,19 @@ export default function Home() {
        "
       >
         <div className="flex flex-col justify-center items-center h-full pt-10">
-          <div className="flex gap-8 items-center text-white/75">
+          <div className="flex gap-4 items-center text-white/75">
             <a href="" className="hover:text-[#ff0479] hover-underline">
               About
             </a>
+            <h6 className="text-[#222222]">|</h6>
             <a href="#" className="hover:text-[#ff0479] hover-underline">
               Cookies
             </a>
+            <h6 className="text-[#222222]">|</h6>
             <a href="#" className="hover:text-[#ff0479] hover-underline">
               Privacy
             </a>
+            <h6 className="text-[#222222]">|</h6>
             <a href="#" className="hover:text-[#ff0479] hover-underline">
               Contact Us
             </a>
