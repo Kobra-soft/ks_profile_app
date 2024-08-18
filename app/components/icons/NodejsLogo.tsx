@@ -1,15 +1,19 @@
-import React from 'react';
+import React from "react";
 
 const NodejsLogo = () => (
   <svg
-  xmlns="http://www.w3.org/2000/svg" 
-  viewBox="0 0 512 512" 
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"
     width={50}
     height={50}
-   className="next-logo-white hover:scale-125 transition-transform duration-100 hover:filter-grey-to-white"
+    className="next-logo-white hover:scale-125 transition-transform duration-100 hover:filter-grey-to-white"
   >
-    <path fill="gray"
-    display="inline" fill-rule="evenodd" clip-rule="evenodd" d="M115.889,151.885l-24.053-13.773
+    <path
+      fill="gray"
+      display="inline"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M115.889,151.885l-24.053-13.773
 		c-1.512-0.891-2.451-2.499-2.451-4.244v-29.306c0-1.745-0.928-3.364-2.443-4.232l-10.239-5.899
 		c-0.742-0.444-1.601-0.662-2.432-0.662c-0.854,0-1.689,0.218-2.451,0.662l-10.246,5.899c-1.516,0.869-2.44,2.488-2.44,4.232v29.306
 		c0,1.745-0.928,3.342-2.446,4.244l-24.061,13.773c-0.747,0.458-1.675,0.458-2.429,0c-0.766-0.421-1.22-1.234-1.22-2.107
@@ -47,10 +51,9 @@ const NodejsLogo = () => (
 		c0,30.813,23.819,39.334,62.333,43.134c46.092,4.525,49.67,11.256,49.67,20.327C341.729,392.703,329.105,399.408,299.448,399.408z
 		 M438.328,101.044c-0.288-0.17-0.646-0.17-0.935,0l-7.767,4.484c-0.292,0.167-0.47,0.477-0.47,0.81v8.979
 		c0,0.333,0.178,0.644,0.47,0.81l7.767,4.484c0.288,0.167,0.646,0.167,0.935,0l7.773-4.484c0.293-0.166,0.47-0.477,0.47-0.81v-8.979
-		c0-0.333-0.177-0.643-0.47-0.81L438.328,101.044z">
-
-</path></svg>
+		c0-0.333-0.177-0.643-0.47-0.81L438.328,101.044z"
+    ></path>
+  </svg>
 );
 
 export default NodejsLogo;
-    

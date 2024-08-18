@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const VercelLogo = () => (
   <svg
@@ -7,7 +7,7 @@ const VercelLogo = () => (
     viewBox="0 0 283 64"
     width={60}
     height={60}
-   className="next-logo-white hover:scale-125 transition-transform duration-100 hover:filter-grey-to-white"
+    className="next-logo-white hover:scale-125 transition-transform duration-100 hover:filter-grey-to-white"
   >
     <path
       fill="gray"
