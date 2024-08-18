@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className="text-3xl cursor-pointer hover:text-[#ff0479]">
             Kobra-Soft
           </h1>
-          {/* <h1 className="text-2xl cursor-pointer tracking-wide hover:text-[#ff0479]">KOBRA-SOFT</h1> */}
+
           <button onClick={toggleMenu} className="cursor-pointer group">
             <div className="w-7 h-7 flex items-center justify-center">
               {isMenuOpen ? (
@@ -106,7 +106,7 @@ export default function Home() {
         className="main_container_div pt-64 
       bg-[#f7f7f7] h-screen w-full px-8 lg:pl-[12.5rem]"
       >
-      <h2 className="h2a w-52 text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
+        <h2 className="h2a w-52 text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
           BOOST YOUR BRAND
         </h2>
 
@@ -123,28 +123,10 @@ export default function Home() {
         </h3>
       </div>
 
-      {/* Second Container for additional content */}
-      {/*       <div
-        id="section2"
-        className="second_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
-      >
-        <h4>Additional content 2 or sections can go here.</h4>
-        <h4>
-          Describe more services, showcase projects, or include testimonials.
-        </h4>
-        <h4>Each section can have its unique content and styling as needed.</h4>
-        <h4>
-          This setup allows for creating a full-page scrolling experience.
-        </h4>
-        <h4>
-          Consider navigation options for users to easily jump between sections.
-        </h4>
-      </div> */}
-
       <div
         id="section2"
         className="main_container_div pt-80 
-      bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem] pb-16" // Add padding-bottom to avoid overlap with footer
+      bg-[#0f0f0f] h-screen w-full px-8 lg:pl-[12.5rem] pb-16"
       >
         <h2 className="text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
           SOLUTIONS
@@ -162,23 +144,27 @@ export default function Home() {
         </h3>
       </div>
 
-      {/* Third Container for additional content */}
-      {/*       <div
+      <div
         id="section3"
-        className="third_container_div px-12 pt-36 bg-[#ffffff] h-screen w-full text-4xl"
+        className="main_container_div pt-64 
+      bg-[#f7f7f7] h-screen w-full px-8 lg:pl-[12.5rem]"
       >
-        <h4>Additional content 3 or sections can go here.</h4>
-        <h4>
-          Describe more services, showcase projects, or include testimonials.
-        </h4>
-        <h4>Each section can have its unique content and styling as needed.</h4>
-        <h4>
-          This setup allows for creating a full-page scrolling experience.
-        </h4>
-        <h4>
-          Consider navigation options for users to easily jump between sections.
-        </h4>
-      </div> */}
+        <h2 className="h2a w-52 text-[50px] md:text-[50px] lg:text-[120px] mb-2.5 cursor-pointer">
+          BOOST YOUR BRAND
+        </h2>
+
+        <h3
+          className="text-[20px] md:text-[20px] lg:text-[33px] font-light text-[#000000]
+        md:w-[60%]  xl:w-[45%]"
+        >
+          We create
+          <span className=""> digital experience</span> at the intersection
+          between
+          <span className=""> design </span>
+          and<span className=""> technology</span>, helping our clients to
+          <span className=""> imagine the future</span>, today.
+        </h3>
+      </div>
 
       {/* <div className="flex flex-col items-center w-full bg-[#ff0059]">
         <div className="flex justify-center border-t  border-[#272727] w-full ">
@@ -332,6 +318,7 @@ export default function Home() {
 
           {/* Divider */}
           {/* <div className="w-11/12 border-b border-[#222222] pt-4 mb-6"></div> */}
+
           <div className=" border-b border-[#222222] pt-4 mb-6"></div>
 
           <div className="flex gap-8 items-center pt-0">
